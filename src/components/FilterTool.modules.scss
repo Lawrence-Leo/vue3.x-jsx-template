@@ -1,0 +1,14 @@
+.filter-tool {
+  overflow: hidden;
+  height: 32px;
+  transition: height .5s;
+  .filter-item {
+    display: flex !important;
+    margin-bottom: 10px;
+    .filter-item-label {
+      display: flex;
+      flex-shrink: 0;
+      align-items: center;
+    }
+  }
+}

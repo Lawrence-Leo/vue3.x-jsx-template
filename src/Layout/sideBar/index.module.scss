@@ -1,0 +1,16 @@
+:global {
+  .el-menu {
+    height: calc(100vh - 60px) !important;
+    background-color: #bd93f9 !important;
+    .el-menu-item {
+      color: #fff;
+      &.is-active {
+        color: #2F2B3B;
+      }
+      &:hover {
+        background-color: #fff !important;
+        color: #2F2B3B;
+      }
+    }
+  }
+}

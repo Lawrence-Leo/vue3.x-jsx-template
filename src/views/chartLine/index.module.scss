@@ -1,0 +1,12 @@
+.lineBar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  .box {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+}

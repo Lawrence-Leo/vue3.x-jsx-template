@@ -1,0 +1,10 @@
+:global {
+  .el-dialog__header {
+    margin-right: 0;
+    background-color: #BD93F9;
+    .el-dialog__close,
+    .el-dialog__title {
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.pop-panel {
+  padding: 10px;
+}
+.first-menu-title {
+  width: 100%;
+}
+.second-menu-title {
+}
+.second-menu-item-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  .second-menu-item {
+    border-radius: 2px;
+    padding:  0 14px;
+    cursor: pointer;
+    &:hover {
+      background-color: #E8E3F2;
+    }
+  }
+}

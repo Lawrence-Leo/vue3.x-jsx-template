@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../assets/font/YbdpLMkJeZh1_-vzANNBw.woff2') format('woff2'),
+    url('../assets/font/YbdpLMkJeZh1_-vzANNBw.woff') format('woff');
+}
+.layout-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  .main-container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+    background-color: #bd93f9;
+    color: #fff;
+    .header-title {
+      font-family: 'iconfont';
+      font-size: 20px;
+      text-shadow: 2px 2px 4px 12px #fff;
+    }
+    .user {
+      .avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+    }
+  }
+  .layout-aside {
+    width: 120px;
+  }
+  .main-container {
+    width: 100%;
+    height: 100%;
+    .main-container-body {
+      height: calc(100vh - 80px);
+      padding: 0;
+    }
+    .main-container-mask {
+      position: absolute;
+      height: 100%;
+      left: 150px;
+      top: 60px;
+      left: 120px;
+      right: 0;
+      bottom: 0;
+      // 比浮动按钮低一级
+      z-index: 1000;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  }
+}
